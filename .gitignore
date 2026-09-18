@@ -1,0 +1,16 @@
+# 车间区与未脱敏初稿：永不入库
+/AGENTS.md
+/AGENTS/
+/wip/
+
+# 常见运行垃圾
+*.bak
+*.tmp
+*.swp
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
