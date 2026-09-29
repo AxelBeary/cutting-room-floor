@@ -20,5 +20,3 @@
 ## 参考先例（正文第 04 节避让项，正式引用前须逐条回原文核对）
 
 以下为公开可查的邻近先例，仅作避让与定位用，本文不主张任何一条为首创：agents.md 开放标准 [须补或删：GitHub 仓库 URL]；Anthropic 的 context engineering / Agent Skills 工程文章 [须补或删：官方文档 URL]；ADR 的 Superseded/Rejected 状态与「防 agent 重提被否方案」的相关实践（archyl、Addy Osmani 等） [须补或删：具体项目/文章链接]；OpenAI Codex 生态的 Doc-Gardening、Serial-Studio 的 ss-ai-audit [须补或删：GitHub URL]；Kernighan（1974）关于行宽、Microsoft 79 字符规范、flowmark 关于「为 LLM 编辑/diff 断行」的论述 [须补或删：原始文献/规范文档 URL]；Claude Code MEMORY.md 的 200 行 / 25KB / 每条 150 字上限 [须补或删：Anthropic 官方文档 URL]；以及《Evaluating AGENTS.md》一系对「上下文文件可能反降成功率」的反证 [须补或删：论文 arXiv/DOI]。**上述每一条的具体表述在正式发布前必须回原文逐条核对，本文只据二手转述列出，不得当作已核实引用。**
-
-> 本文件未过脱敏闸。

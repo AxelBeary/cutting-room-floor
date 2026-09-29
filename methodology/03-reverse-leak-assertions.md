@@ -55,5 +55,3 @@ assert row.来源标识列 == "198.51.100.39"     // 管理端该看的看得到
 > 每加一个非管理端出口，就配一条"字段名 + 值都不出现（用 TEST-NET 假值）+ 业务字段仍在"的逆泄露断言，并配一条管理端正向对照防假绿灯。
 
 这套"断言某文本不出现在响应里"的手法，公开早是框架一等公民（Django `assertNotContains`、Tavern 的默认严格 JSON 键匹配、Schemathesis 的 `response_schema_conformance`、JSON Schema `additionalProperties:false`），Discourse 的审核序列化器也已经是"白名单属性 + 按 scope 摘除邮箱原文 + 自由文本 payload 切片不平铺"。本案例是把这几样凑在一个小系统里、并额外用"值不出现在任意位置"补强键校验的盲区——补强有限，别当突破（第 05、07 段各说一次）。
-
-*本文件未过脱敏闸。*
